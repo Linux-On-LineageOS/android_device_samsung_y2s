@@ -74,3 +74,4 @@ $(call inherit-product, device/samsung/universal9830-common/device-hubble.mk)
 
 # Inherit from the proprietary version
 $(call inherit-product-if-exists, vendor/samsung/y2s/y2s-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
